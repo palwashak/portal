@@ -1,0 +1,47 @@
+[
+        {
+            "attributes": {
+                "type": "Case",
+                "url": "/services/data/v59.0/sobjects/Case/5007Z00000PqD0sQAF"
+            },
+            "Id": "5007Z00000PqD0sQAF",
+            "IsClosed": false,
+            "ClosedDate": null,
+            "CaseNumber": "00019362",
+            "Status": "Expand on required Information",
+            "Type_RIB_4_0__c": null,
+            "Products__c": "Candy",
+            "Subject": "the subject",
+            "Description": "Test Description"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "url": "/services/data/v59.0/sobjects/Case/5007Z00000PqE6dQAF"
+            },
+            "Id": "5007Z00000PqE6dQAF",
+            "IsClosed": true,
+            "ClosedDate": "2023-11-27T06:11:18.000+0000",
+            "CaseNumber": "00019363",
+            "Status": "Closed",
+            "Type_RIB_4_0__c": null,
+            "Products__c": "Candy",
+            "Subject": "Closed Case example",
+            "Description": "Description"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "url": "/services/data/v59.0/sobjects/Case/5007Z00000Pq8zLQAR"
+            },
+            "Id": "5007Z00000Pq8zLQAR",
+            "IsClosed": false,
+            "ClosedDate": null,
+            "CaseNumber": "00019361",
+            "Status": "Client to supply info",
+            "Type_RIB_4_0__c": "System Usage Question",
+            "Products__c": "Candy",
+            "Subject": "the subject",
+            "Description": "the enquiry description"
+        }
+]
