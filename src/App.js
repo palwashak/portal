@@ -8,7 +8,7 @@ import { NotificationDetail } from "./screens/NotificationDetail";
 
 function App() {
   useEffect(() => {
-    document.title = "Activate-Ate Push Notifications Tool";
+    document.title = "Salesforce Service Cloud";
   }, []);
   let element = useRoutes([
     { path: "/", element: <About /> },
