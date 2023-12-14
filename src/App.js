@@ -10,6 +10,7 @@ function App() {
   useEffect(() => {
     document.title = "Salesforce Service Cloud";
   }, []);
+  <h1>Welcome</h1>
   let element = useRoutes([
     { path: "/", element: <About /> },
     { path: "/about", element: <About /> },
