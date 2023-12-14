@@ -1,6 +1,9 @@
 {
     "navigationFallback": {
-        "rewrite": "/index.html",
-        "exclude": ["*.{svg,png,jpg,gif}","*.{css,scss}","*.js"]
+      "rewrite": "/index.html"
+    },
+    "globalHeaders": {
+      "Access-Control-Allow-Origin": "https://<YOUR PROJECT>.azurewebsites.net",
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
     }
-}
+  }
