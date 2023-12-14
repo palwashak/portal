@@ -1,4 +1,19 @@
 {
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/notifications",
+      "rewrite": "/components/screens/NotificationsScreen.js"
+    },
+    {
+      "route": "/about",
+      "rewrite": "/src/components/screens/about.js"
+    },
+    {
+      "route": "/",
+      "redirect": "/about"
+    }
+  ],
     "navigationFallback": {
       "rewrite": "/index.html"
     }
