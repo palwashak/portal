@@ -1,7 +1,7 @@
 {
   "name": "hello",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://ashy-sea-0c8982610.4.azurestaticapps.net",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
